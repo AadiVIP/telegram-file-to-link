@@ -29,10 +29,10 @@ An advanced Telegram bot with deep linking support for secure file sharing, now 
    ```
 
 2. Configure the bot:
-   - Edit `config.py`:
+   - Edit your these:
      ```python
      TOKEN = "YOUR_BOT_TOKEN"  # Get from @BotFather
-     AUTHORIZED_USERS = {5647525608, 1764307921}  # Add your user IDs
+     AUTHORIZED_USERS = {1234567890, 2345678901}  # Add your user IDs
      ```
 
 3. Install dependencies:
