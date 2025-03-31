@@ -584,7 +584,7 @@ async def uptime(update: Update, context: CallbackContext):
 def main():
     TOKEN = "YOUR BOT TOKEN HERE"
     
-    print("💖 Starting bot...")
+    print("Starting bot...")
     app = Application.builder().token(TOKEN)\
         .read_timeout(30)\
         .connect_timeout(30)\
@@ -608,7 +608,7 @@ def main():
                   filters.ANIMATION | filters.Sticker.ALL)
     app.add_handler(MessageHandler(file_filter, file_handler))
 
-    print("💖 Your bot is ready, my king!")
+    print("💖 Your bot has started")
     app.run_polling(
         poll_interval=3,
         timeout=30,
